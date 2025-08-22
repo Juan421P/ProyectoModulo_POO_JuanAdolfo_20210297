@@ -27,12 +27,12 @@ public class LibrosEntity {
     private String isbn;
 
     @Column(name = "AÑO_PUBLICACION")
-    private String anioPublicacion;
+    private Long anioPublicacion;
 
     @Column(name = "GENERO")
     private String genero;
 
     @Column(name = "AUTOR_ID")
-    private String autorId;
+    private Long autorId;
 
 }
